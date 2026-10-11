@@ -5,6 +5,12 @@ practice: a missing `.PHONY` declaration, a recipe line indented with
 spaces instead of a tab (GNU Make's single most notorious footgun), and
 a variable that's referenced but never defined anywhere in the file.
 
+## Installation
+
+```sh
+cargo install --path .
+```
+
 ## Usage
 
 ```bash
